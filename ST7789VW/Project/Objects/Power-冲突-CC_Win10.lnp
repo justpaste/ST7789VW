@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\power.o"
+".\objects\stm32f0xx_it.o"
+".\objects\delay.o"
+".\objects\tm1639.o"
+".\objects\sys.o"
+".\objects\stm32f0xx_adc.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_usart.o"
+".\objects\stm32f0xx_misc.o"
+".\objects\system_stm32f0xx.o"
+".\objects\startup_stm32f030.o"
+--library_type=microlib --strict --scatter ".\Objects\Power.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Power.map" -o .\Objects\Power.axf

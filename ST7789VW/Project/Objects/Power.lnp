@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\stm32f0xx_it.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\usart1.o"
+".\objects\adc.o"
+".\objects\tim3.o"
+".\objects\cs1237.o"
+".\objects\w25qxx.o"
+".\objects\spi.o"
+".\objects\fonts.o"
+".\objects\oled.o"
+".\objects\stm32f0xx_adc.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_usart.o"
+".\objects\stm32f0xx_misc.o"
+".\objects\stm32f0xx_dma.o"
+".\objects\stm32f0xx_tim.o"
+".\objects\stm32f0xx_spi.o"
+".\objects\system_stm32f0xx.o"
+".\objects\startup_stm32f030.o"
+--library_type=microlib --strict --scatter ".\Objects\Power.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Power.map" -o .\Objects\Power.axf
