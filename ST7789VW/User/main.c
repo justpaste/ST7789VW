@@ -79,7 +79,7 @@ int main(void)
 	
 
 	Lcd_Init();
-	LCD_Clear(BLACK);
+	LCD_Clear(LBLUE);
 	GPIO_SetBits(GPIOA,LED_Pin);
 	//显示buzzer图标
 	POINT_COLOR=YELLOW;

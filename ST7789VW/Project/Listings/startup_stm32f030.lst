@@ -396,11 +396,11 @@ ARM Macro Assembler    Page 7
 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=.\objects\startup_stm32f030.d -o.\objects\startup_stm32f030.o -I.\
-RTE\_Power -IC:\Users\cc\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drive
-rs\CMSIS\Device\ST\STM32F0xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine
-="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 529" --predefine="STM3
-2F030x8 SETA 1" --list=.\listings\startup_stm32f030.lst ..\Libraries\CMSIS\Devi
-ce\Source\arm\startup_stm32f030.s
+RTE\_Power -IC:\Users\czm\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Driv
+ers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefin
+e="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 529" --predefine="STM
+32F030x8 SETA 1" --list=.\listings\startup_stm32f030.lst ..\Libraries\CMSIS\Dev
+ice\Source\arm\startup_stm32f030.s
 
 
 
